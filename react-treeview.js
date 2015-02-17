@@ -53,7 +53,7 @@
         );
 
       return (
-        React.createElement("div", {className: "tree-view"}, 
+        React.createElement("li", {className: "tree-view"}, 
           arrow, 
           props.nodeLabel, 
           React.createElement("ul", {className: containerClassName}, 
