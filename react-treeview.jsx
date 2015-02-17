@@ -56,9 +56,9 @@
         <div className="tree-view">
           {arrow}
           {props.nodeLabel}
-          <div className={containerClassName}>
+          <ul className={containerClassName}>
             {props.children}
-          </div>
+          </ul>
         </div>
       );
     }

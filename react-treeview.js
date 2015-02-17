@@ -12,7 +12,7 @@
 })(this, typeof require === 'function' ? require('react') : React, function(window, React){
   'use strict';
 
-  var TreeView = React.createClass({displayName: 'TreeView',
+  var TreeView = React.createClass({displayName: "TreeView",
     propTypes: {
       collapsed: React.PropTypes.bool,
       defaultCollapsed: React.PropTypes.bool,
@@ -56,7 +56,7 @@
         React.createElement("div", {className: "tree-view"}, 
           arrow, 
           props.nodeLabel, 
-          React.createElement("div", {className: containerClassName}, 
+          React.createElement("ul", {className: containerClassName}, 
             props.children
           )
         )
