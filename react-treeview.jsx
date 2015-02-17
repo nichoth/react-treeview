@@ -53,13 +53,13 @@
         </div>;
 
       return (
-        <div className="tree-view">
+        <li className="tree-view">
           {arrow}
           {props.nodeLabel}
           <ul className={containerClassName}>
             {props.children}
           </ul>
-        </div>
+        </li>
       );
     }
   });
