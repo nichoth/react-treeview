@@ -1,6 +1,6 @@
 {
   "name": "react-treeview",
-  "version": "0.3.13",
+  "version": "0.3.12",
   "description": "Easy, light, flexible tree view made with React.",
   "main": "react-treeview.js",
   "directories": {
@@ -30,8 +30,8 @@
     "url": "https://github.com/chenglou/react-treeview/issues"
   },
   "homepage": "https://github.com/chenglou/react-treeview",
-  "dependencies": {
-    "react": "^0.12.1"
+  "peerDependencies": {
+    "react": ">=0.12.0"
   },
   "devDependencies": {
     "huxley": "^0.8.1",

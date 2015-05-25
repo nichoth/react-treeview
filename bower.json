@@ -1,6 +1,6 @@
 {
   "name": "react-treeview",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "author": "chenglou <chenglou92@gmail.com>",
   "description": "Easy, light, flexible tree view made with React.",
   "main": [
@@ -23,7 +23,7 @@
     "treenode"
   ],
   "dependencies": {
-    "react": "~0.12.1"
+    "react": ">=0.12.0"
   },
   "devDependencies": {},
   "license": "MIT",
